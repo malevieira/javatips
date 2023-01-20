@@ -35,7 +35,7 @@ public class PassByValueOrReference {
     private static void increaseLevelOfPerformance(BaseClass baseClass) {
 
         baseClass = new BaseClass();
-        // the below code doesn't impact the parameter reference
+        // the below code doesn't impact the parameter baseClass
         // because it will receive a new reference from (new BaseClass() instantiation)
         baseClass = new BaseClass();
         baseClass.setLevelOfPerformance(756);
